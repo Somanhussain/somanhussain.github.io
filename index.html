@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Abdul Asif A. — Computer Science and Engineering student portfolio.">
+  <title>Abdul Asif A. | Student Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home">AA<span>.</span></a>
+      <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact" class="nav-cta">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> COMPUTER SCIENCE & ENGINEERING STUDENT</p>
+        <h1>Hello, I'm<br><span>Abdul Asif A.</span></h1>
+        <p class="hero-text">A curious student who enjoys learning how technology works and turning ideas into useful digital experiences.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button secondary" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-meta"><span>📍 Palakkad, Kerala</span><span>🎓 B.Tech CSE</span></div>
+      </div>
+      <div class="hero-art reveal" aria-label="Decorative initials graphic">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="initial-card"><span>AA</span><small>LEARN · BUILD · GROW</small></div>
+        <div class="floating-tag tag-one">Problem solving</div>
+        <div class="floating-tag tag-two">Always learning ↗</div>
+      </div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading reveal"><p class="eyebrow">01 / ABOUT ME</p><h2>A little about <span>my journey.</span></h2></div>
+      <div class="about-grid">
+        <p class="about-lead reveal">I’m pursuing a Bachelor of Technology in Computer Science and Engineering at Royal College of Engineering and Technology, Thrissur.</p>
+        <div class="about-detail reveal">
+          <p>I’m building my foundation in programming, problem-solving and web technologies. I enjoy exploring new tools, practising through small projects and improving step by step.</p>
+          <div class="info-list">
+            <div><span>Education</span><strong>B.Tech — Computer Science & Engineering</strong></div>
+            <div><span>Institution</span><strong>Royal College of Engineering and Technology, Thrissur</strong></div>
+            <div><span>Based in</span><strong>Palakkad, Kerala, India</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="skills">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">02 / SKILLS</p><h2>Tools I'm <span>learning with.</span></h2><p class="section-intro">Edit this list to reflect the technologies you can confidently use.</p></div>
+        <div class="skill-grid">
+          <article class="skill-card reveal"><span class="skill-icon">⌘</span><h3>Programming</h3><p>C · Python</p></article>
+          <article class="skill-card reveal"><span class="skill-icon">⌁</span><h3>Web basics</h3><p>HTML · CSS · JavaScript</p></article>
+          <article class="skill-card reveal"><span class="skill-icon">◇</span><h3>Core concepts</h3><p>Data structures · Algorithms</p></article>
+          <article class="skill-card reveal"><span class="skill-icon">✳</span><h3>Currently exploring</h3><p>Git · Responsive web design</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading reveal"><p class="eyebrow">03 / SELECTED WORK</p><h2>Projects & <span>practice.</span></h2><p class="section-intro">Replace these sample cards with your own completed work and GitHub links.</p></div>
+      <div class="project-grid">
+        <article class="project-card reveal"><div class="project-top"><span>01</span><span class="project-symbol">⌨</span></div><p class="project-type">C PROGRAMMING</p><h3>Sorting & Searching Programs</h3><p>A collection of C practice programs covering insertion sort, linear search and binary search.</p><div class="tags"><span>C</span><span>Algorithms</span></div><a class="text-link" href="https://github.com/" target="_blank" rel="noreferrer">Add GitHub link ↗</a></article>
+        <article class="project-card reveal"><div class="project-top"><span>02</span><span class="project-symbol">▧</span></div><p class="project-type">WEB DEVELOPMENT</p><h3>Personal Portfolio Website</h3><p>A responsive website built with HTML, CSS and JavaScript to introduce myself and showcase my work.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><a class="text-link" href="#contact">Ask me about it ↗</a></article>
+        <article class="project-card project-placeholder reveal"><div class="project-top"><span>03</span><span class="project-symbol">＋</span></div><p class="project-type">YOUR NEXT PROJECT</p><h3>Something you're building</h3><p>Add a short explanation of the problem, what you built and what you learned.</p><div class="tags"><span>Your tools</span><span>Your topic</span></div><a class="text-link" href="https://github.com/" target="_blank" rel="noreferrer">Add project link ↗</a></article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner reveal">
+        <p class="eyebrow">04 / CONTACT</p><h2>Let's connect<br><span>and create something.</span></h2>
+        <p>I'm open to learning opportunities, collaborations and connecting with fellow students and developers.</p>
+        <a class="button light-button" id="email-link" href="mailto:your.email@example.com">Email me ↗</a>
+        <div class="social-links"><a href="https://github.com/" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer container"><span>© <span id="year"></span> Abdul Asif A.</span><span>Designed & built with HTML, CSS and JavaScript.</span><a href="#home">Back to top ↑</a></footer>
+</body>
+</html>
